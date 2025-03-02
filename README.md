@@ -55,6 +55,9 @@ npm run tauri dev
 #### 1️⃣ Push the "Go for a ride" button
 This will take you to the active ride and simulate a ride and it's data being collected. As the ride progresses, the app sends a request to the API with live telemetry data once a second.
 
+![Home Screen](pubic/Ebike1.png)
+![Home Screen](pubic/Ebike2.png)
+
 #### 2️⃣ View/Editing Past rides
 After the simulated ride finishes (30 seconds), you will be returned to the main screen and see the list of past rides. The ride finishing triggers another API call that creates the stats for that ride. Clicking on a past ride shows it's detail information, including:
 - id
@@ -62,3 +65,4 @@ After the simulated ride finishes (30 seconds), you will be returned to the main
 - date
 - stats
 - a CSV Download button
+![Home Screen](pubic/Ebike3.png)
