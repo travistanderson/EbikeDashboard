@@ -36,7 +36,8 @@ pip3 install -r requirements.txt
 #### 1️⃣ Start the Backend (FastAPI)
 ```sh
 # from the pythonApi directory
-uvicorn main:app --reload
+python3 main.py
+# this will create the database.db sqlite3 db if it doesn't exist
 ```
 - API will be available at: http://127.0.0.1:8000
 - Interactive Docs: http://127.0.0.1:8000/docs
